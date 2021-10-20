@@ -1,0 +1,29 @@
+a {
+  color: green;
+}
+a:hover {
+  color: red;
+  background-color: rgb(172, 125, 120);
+;
+}
+div:hover {
+  font-size: x-large;
+}
+a:active {
+  font-weight: bold;
+}
+div:active {
+  font-weight: bold;
+}
+li:first-child {
+  background-color: tomato;
+}
+li:last-child {
+  background-color: rgb(117, 23, 23);
+}
+li:nth-child(5) {
+  background-color: seagreen;
+}
+li:nth-last-child(5) {
+  background-color: slategrey;
+}
