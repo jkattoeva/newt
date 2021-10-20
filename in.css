@@ -27,3 +27,47 @@ li:nth-child(5) {
 li:nth-last-child(5) {
   background-color: slategrey;
 }
+li:nth-child(even) {
+  background-color: yellow;
+}
+li:nth-child(odd) {
+  background-color: green;
+}
+li:nth-child(3n+0) {
+  font-weight: bold;
+}
+li:nth-child(3n+1) {
+  font-weight: bold;
+}
+p:first-of-type {
+  background-color: red;
+}
+p:last-of-type {
+  background-color: rgb(189, 97, 32);
+}
+p:nth-of-type(2) {
+  background-color: green;
+}
+p:nth-last-of-type(2) {
+  background-color: green;
+}
+p:nth-of-type(even) {
+  font-weight: bold;
+}
+img:nth-of-type(even) {
+  float: right;
+  margin-left: 20px;
+}
+img:nth-of-type(odd) {
+  float: left;
+  margin-right: 20px;
+}
+img:hover {
+  border: 2px solid black;
+}
+img:active {
+  border: 2px dashed black;
+}
+img {
+  border: 2px solid transparent;
+}
